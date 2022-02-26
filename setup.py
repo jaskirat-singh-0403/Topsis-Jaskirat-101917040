@@ -17,8 +17,7 @@ setup(
   url = 'https://github.com/jaskirat-singh-0403/Topsis-Jaskirat-101917040',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/jaskirat-singh-0403/Topsis-Jaskirat-101917040/archive/refs/tags/0.1.tar.gz',    # I explain this later on
   keywords = ['TOPSIS', 'Decision Making', 'Package'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-          'os',
+  install_requires=['os',
           'pandas',
           'numpy',
           'math',
