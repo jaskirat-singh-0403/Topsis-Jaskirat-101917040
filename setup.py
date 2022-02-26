@@ -17,7 +17,7 @@ setup(
   url = 'https://github.com/jaskirat-singh-0403/Topsis-Jaskirat-101917040',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/jaskirat-singh-0403/Topsis-Jaskirat-101917040/archive/refs/tags/0.1.tar.gz',    # I explain this later on
   keywords = ['TOPSIS', 'Decision Making', 'Package'],   # Keywords that define your package best
-  install_requires=["pandas","numpy"]
+  install_requires=["pandas","numpy"],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
