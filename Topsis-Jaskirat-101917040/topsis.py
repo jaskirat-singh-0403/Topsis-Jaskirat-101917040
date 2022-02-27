@@ -34,6 +34,19 @@ class CommaError(Error):
     pass
 
 def TOPSIS():
+    """This function returns a file by the name specified by the user in the command line arguments which contains the TOPSIS score as well as 
+    rank for the different records being compared. 
+    
+    Usage:
+    1) Create a script by importing the package and just calling the TOPSIS function.
+
+    import importlib
+    topsis=importlib.import_module("Topsis-Jaskirat-101917040")
+    topsis.TOPSIS()
+
+    2) Run the script from terminal with command line arguments:
+    C:/Users/admin> python myscript.py <Data_File_csv> <Weights(Comma_seperated)> <Impacts(Comma_seperated)> <Result_file_csv>
+    """
     args=sys.argv
     try:
         if len(args)<5:
