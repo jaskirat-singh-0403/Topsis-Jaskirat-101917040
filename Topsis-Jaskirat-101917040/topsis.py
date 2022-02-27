@@ -32,9 +32,9 @@ class ImpactsTypeError(Error):
     pass
 class CommaError(Error):
     pass
-args=sys.argv
-def TOPSIS(args):
 
+def TOPSIS():
+    args=sys.argv
     try:
         if len(args)<5:
             raise(NoArgumentsError)
@@ -107,7 +107,7 @@ def TOPSIS(args):
         print("[",datetime.now(),"]","File",args[1],"cannot be processed due to invalid imput(Impacts are not equal to features)")
     except WeightsError:
         print("[",datetime.now(),"]","File",args[1],"cannot be processed due to invalid imput(Weights are not equal to features)")
-TOPSIS(args)
+
 
 
 
