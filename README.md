@@ -10,6 +10,19 @@ TOPSIS is a way to allocate the ranks on basis of the weights and impact of the 
 
 This tool allows you to calculate the topsis ranking and save the results in the form of a csv (Comma Seperated Value) file.
 
-## Example Code
+## Installing Package
+```python
+pip install Topsis-Jaskirat-101917040
+``` 
 
- 
+## Using the TOPSIS tool
+- Create a script by importing the package and just calling the TOPSIS function.
+```python
+import importlib
+topsis=importlib.import_module("Topsis-Jaskirat-101917040")
+```
+
+- Run the Script through command line as shown below:
+```console
+C:/Users/admin> python myscript.py <Data_File_csv> <Weights(Comma_seperated)> <Impacts(Comma_seperated)> <Result_file_csv>
+```
