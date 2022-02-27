@@ -12,7 +12,7 @@ This tool allows you to calculate the topsis ranking and save the results in the
 
 ## Installing Package
 ```python
-pip install Topsis-Jaskirat-101917040
+pip install Topsis-Jaskirat-101917040==0.5
 ``` 
 
 ## Using the TOPSIS tool
