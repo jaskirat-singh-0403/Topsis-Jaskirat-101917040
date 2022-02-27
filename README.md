@@ -20,7 +20,7 @@ pip install Topsis-Jaskirat-101917040
 ```python
 import importlib
 topsis=importlib.import_module("Topsis-Jaskirat-101917040")
-TOPSIS()
+topsis.TOPSIS()
 ```
 
 - Run the Script through command line as shown below:
